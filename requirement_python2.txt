@@ -1,1 +1,1 @@
-prettytable>=2.1.0
+prettytable>=0.7.2,<2.0.0
