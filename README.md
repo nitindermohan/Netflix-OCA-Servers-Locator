@@ -12,13 +12,23 @@ This utility provides insights into how Netflix delivers content with optimal pe
 
 For more information on how fast.com works and its significance, visit [Netflix TechBlog](https://medium.com/netflix-techblog/building-fast-com-4857fe0f8adb).
 
+UPDATE: The code has been appended to support older machines that can only support `Python2` (tested with `v2.7`). 
+
 ## Requirements
 
 ### Python Libraries
 To install the required Python libraries, use the following command:
 
+- For `Python3`
+
 ```sh
 pip install -r requirements.txt
+```
+
+- For `Python2`
+
+```sh
+pip install -r requirements_python2.txt
 ```
 
 ### External Tools
@@ -35,11 +45,18 @@ Ensure that Python and `pip` are correctly installed on your system. This script
 
 To execute the script and find out the allocated Netflix OCA for your host, simply run:
 
+- For `Python3` 
+
 ```sh
 python find_netflix_ocas.py
 ```
+- For `Python2` 
 
-Ensure that you're in the directory containing the `find_netflix_ocas.py` script when you run this command.
+```sh
+python find_netflix_ocas_python2.py
+```
+
+Ensure that you're in the directory containing the scripts are located when you run this command.
 
 ## Contributions
 
