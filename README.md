@@ -39,7 +39,7 @@ sudo apt-get install whois
 ```
 
 ### Additional Setup
-Ensure that Python and `pip` are correctly installed on your system. This script is compatible with Python 3.
+Ensure that Python and `pip` are correctly installed on your system. Note the different scripts compatible with `Python2` and `Python3`.
 
 ## How to Run
 
